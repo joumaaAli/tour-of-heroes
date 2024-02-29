@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
-import { Hero } from '../hero';
+import { Hero } from '../interfaces/hero';
 import { NgIf } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { HeroService } from '../hero.service';
+import { HeroService } from '../services/hero.service';
 @Component({
   selector: 'app-hero-detail',
   standalone: true,

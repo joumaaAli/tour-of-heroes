@@ -1,10 +1,10 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Hero } from '../hero';
+import { Hero } from '../interfaces/hero';
 import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
-import { HeroService } from '../hero.service';
-import { MessageService } from '../message.service';
+import { HeroService } from '../services/hero.service';
+import { MessageService } from '../services/message.service';
 import { RouterLink } from '@angular/router';
 
 @Component({
